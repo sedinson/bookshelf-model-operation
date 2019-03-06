@@ -3,10 +3,11 @@
 var async = require('async'),
     Promise = require('bluebird'),
     _ = require('lodash'),
-    check = require('basic-check'),
-    normalize = require('restify-normalize');
+    check = require('basic-check');
 
-module.exports = function (Log) {
+module.exports = function (knex, Log) {
+    var normalize = require('restify-normalize')(knex);
+    
     return function (Model) {
         return {
             /**
