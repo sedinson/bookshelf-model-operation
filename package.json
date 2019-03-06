@@ -1,0 +1,31 @@
+{
+  "name": "bookshelf-model-operation",
+  "version": "1.0.0",
+  "description": "Bookshelf model operation with basic log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedinson/bookshelf-model-operation.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "model",
+    "crud"
+  ],
+  "author": "Edinson Salas <edinsonsalas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sedinson/bookshelf-model-operation/issues"
+  },
+  "homepage": "https://github.com/sedinson/bookshelf-model-operation#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "basic-check": "^1.0.0",
+    "lodash": "^4.17.11",
+    "promise": "^8.0.2",
+    "restify-normalize": "^1.0.1"
+  }
+}
