@@ -27,6 +27,6 @@
     "lodash": "^4.17.11",
     "normalize": "^0.3.1",
     "promise": "^8.0.2",
-    "restify-normalize": "^1.0.1"
+    "restify-normalize": "^1.1.1"
   }
 }
