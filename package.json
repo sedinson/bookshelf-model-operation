@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-model-operation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bookshelf model operation with basic log",
   "main": "index.js",
   "scripts": {
